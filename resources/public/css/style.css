@@ -1,0 +1,52 @@
+body {
+  font-family: 'Alef Hebrew', sans-serif;
+  font-size: 24px;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  background: white;
+  border: solid 1px lightgrey;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 26px;
+  top: 500px;
+  outline: none;
+}
+
+.button:hover {
+  background: lightgrey;
+}
+
+.button.button-left {
+  left: 900px;
+}
+
+.button.button-right {
+  left: 930px;
+}
+
+table {
+  background-image: url("../img/temple.png");
+  background-repeat: no-repeat;
+}
+
+td {
+  border: solid 1px transparent;
+  padding: 2px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+td.active {
+  background-color: green;
+} 
+
+td.station {
+  background-color: red;
+}             
