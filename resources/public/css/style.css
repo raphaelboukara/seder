@@ -24,14 +24,15 @@ body {
 }
 
 .button.button-left {
-  left: 900px;
+  left: 950px;
 }
 
 .button.button-right {
-  left: 930px;
+  left: 980px;
 }
 
 table {
+  margin: 0 auto;
   background-image: url("../img/temple.png");
   background-repeat: no-repeat;
 }
